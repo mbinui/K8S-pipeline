@@ -1,10 +1,10 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: nodeapp
+  name: k8s-app
 spec:
   selector:
-    app: nodeapp
+    app: k8s-app
   ports:
   - protocol: TCP
     port: 80
