@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: k8s-app
+  name: nodeapp
   labels:
-    app: k8s-app
+    app: nodeapp
 spec:
   containers:
-    - name: k8s-app
+    - name: nodeapp
       image: mbinui/k8s-app:tagVersion
       ports:
         - containerPort: 8080
